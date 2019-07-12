@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jq基本语法学习</title>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <!--js代码写在HTML加载的前面-->
+    <script>
+//        window.onload = function () {
+//            //绑定按钮点击事件
+//            $("#button1").click(function () {
+//                alert("触发点击事件")
+//            });
+//        }
+
+        $(function () {
+//            //绑定按钮点击事件
+//            $("#button1").click(function () {
+//                alert("触发点击事件")
+//            });
+
+            //改变div1的颜色
+            $("#div1").css("background-color","red");
+            $("#div2").css("backgroundColor","pink");
+        })
+    </script>
+
+</head>
+<body>
+    <div id="div1">div1....</div>
+    <div id="div2">div2....</div>
+    <!--<button id="button1">点击</button>-->
+    <input id="button1" value="点击" type="button">
+
+</body>
+</html>

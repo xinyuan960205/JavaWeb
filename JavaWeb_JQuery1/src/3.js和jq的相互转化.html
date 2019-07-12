@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js和jq的相互转化</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div id="div1">div1....</div>
+    <div id="div2">div2....</div>
+
+    <script>
+        //jq获取标签是div的所有元素
+        var divs = $("div");
+
+        //jq对象[索引]
+        divs.get(1).innerHTML = "bbb"
+
+    </script>
+
+</body>
+</html>
